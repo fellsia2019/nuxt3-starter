@@ -1,6 +1,8 @@
 <template>
   <div class="default-layout">
-    default-layout
-    <NuxtPage />
+    <div class="container mx-auto">
+      default-layout
+      <NuxtPage />
+    </div>
   </div>
 </template>

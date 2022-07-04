@@ -1,7 +1,9 @@
 <template>
   <div class="custom-layout">
-    Some *custom* layout
-    <NuxtPage />
+    <div class="container mx-auto">
+      Some *custom* layout
+      <NuxtPage />
+    </div>
   </div>
 </template>
 

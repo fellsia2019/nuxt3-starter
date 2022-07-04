@@ -5,11 +5,13 @@ export default defineNuxtConfig({
   publicRuntimeConfig: {
     TEST_VAR: process.env.TEST_VAR,
   },
-  css: ["~/assets/style/test.css"],
+  css: ["~/assets/style/main.scss"],
 
   typescript: {
     strict: true,
   },
+
+  modules: ["lodash"],
 
   buildModules: ["@pinia/nuxt"],
 

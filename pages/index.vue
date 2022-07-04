@@ -1,36 +1,11 @@
 <template>
   <div class="index-page text-3xl font-bold underline">
-    <h1 class="title">index</h1>
-    <p>{{ counter }}</p>
-    <button class="badge" @click="icnrementMethod()">increment</button>
+    <h1 class="title text-blue-700">index</h1>
   </div>
 </template>
 
 <script lang="ts">
-import { exampleApiStore } from "~~/store/api/example";
-import { storeToRefs } from "pinia";
-
-export default {
-  setup() {
-    const store = exampleApiStore();
-
-    const { counter } = storeToRefs(store);
-
-    return { counter, store };
-  },
-
-  methods: {
-    icnrementMethod() {
-      this.store.increment();
-    },
-  },
-};
+export default {};
 </script>
 
-<style lang="scss">
-.index-page {
-  .title {
-    color: blueviolet;
-  }
-}
-</style>
+<style lang="scss"></style>
